@@ -100,7 +100,7 @@ export default function ArticlePage({ params }: { params: { id: string } }) {
   const article = getArticle(params.id)
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto container-responsive py-6 sm:py-8">
         {/* Back Button */}
         <Link href="/" className="inline-flex items-center text-gray-600 hover:text-black mb-6 sm:mb-8 inter-body transition-colors group">

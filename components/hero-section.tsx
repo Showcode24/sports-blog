@@ -36,8 +36,8 @@ export function HeroSection() {
   }
 
   return (
-    <section className="relative bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto container-responsive py-8 sm:py-12">
+    <section className="relative bg-white overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 container-responsive py-8 sm:py-12">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
           <AnimatedSection animation="fadeInLeft" className="order-2 lg:order-1">

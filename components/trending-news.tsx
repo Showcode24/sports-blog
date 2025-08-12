@@ -5,7 +5,7 @@ import { trendingNews } from '@/data/articles'
 
 export function TrendingNews() {
   return (
-    <section>
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <AnimatedSection>
         <div className="mb-6 sm:mb-8">
           <h2 className="bbc-section-header text-responsive-2xl sm:text-responsive-3xl">

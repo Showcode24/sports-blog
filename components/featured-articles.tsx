@@ -5,7 +5,7 @@ import { featuredArticles } from '@/data/articles'
 
 export function FeaturedArticles() {
   return (
-    <section className="py-12 sm:py-16">
+    <section className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto container-responsive">
         <AnimatedSection>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8 sm:mb-12 gap-4">
@@ -13,7 +13,7 @@ export function FeaturedArticles() {
               Featured Stories
             </h2>
             <Link href="/articles" className="text-sm font-medium text-gray-600 hover:text-red-600 inter-body transition-colors group self-start sm:self-auto">
-              View All 
+              View All         
               <span className="ml-1 group-hover:translate-x-1 transition-transform duration-200 inline-block">→</span>
             </Link>
           </div>

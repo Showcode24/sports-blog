@@ -20,7 +20,7 @@ const ebGaramond = EB_Garamond({
 export const metadata: Metadata = {
   title: 'SportsPulse - Your Ultimate Sports Destination',
   description: 'Get the latest sports news, match highlights, player profiles, and analysis across football, basketball, tennis, boxing, and athletics.',
-    generator: 'v0.dev'
+    generator: 'sport-blog'
 }
 
 export default function RootLayout({
